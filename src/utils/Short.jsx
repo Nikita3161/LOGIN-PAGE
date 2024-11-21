@@ -15,6 +15,7 @@ const Small = () => {
           </p>
         </div>
       </div>
+      
     </div>
   );
 };

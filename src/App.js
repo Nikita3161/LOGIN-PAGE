@@ -11,6 +11,7 @@ import Container4 from "./utils/Container4";
 import Short from "./utils/Short";
 import WhoWeAre from "./utils/WhoWeAre";
 import Footer from "./utils/Footer";
+import PayAtTable from "./utils/PayAtTable";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/container4"element={<Container4/>}/>
           <Route path="/who"element={<WhoWeAre/>}/>
           <Route path="/footer"element={<Footer/>}/>
+          <Route path="/table"element={<PayAtTable/>}/>
         </Routes>
       </div>
     </Router>
