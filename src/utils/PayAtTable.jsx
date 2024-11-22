@@ -8,7 +8,7 @@ const PayAtTable = () => {
     <div className="h-auto w-full flex flex-col justify-around items-center bg-white">
       <div className="w-full flex flex-col lg:flex-row justify-around items-center h-auto lg:h-screen p-6 lg:p-0">
         <div className="w-full lg:w-[45%] flex flex-col justify-center items-start space-y-6 md:space-y-8 p-4 md:p-8 lg:p-12">
-          <h1 className="text-pink-400 text-3xl md:text-4xl lg:text-5xl">
+          <h1 className="text-[#f414e4] text-3xl md:text-4xl lg:text-5xl">
             Pay At Table
           </h1>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold">
@@ -29,7 +29,7 @@ const PayAtTable = () => {
           <img
             src={require("../assets/table.png")}
             alt="burger"
-            className="h-[300px] w-[300px] md:h-[400px] md:w-[400px] lg:h-[600px] lg:w-[600px]"
+            className="h-[600px] w-[600px] md:h-[500px] md:w-[500px] lg:h-[600px] lg:w-[600px]"
           />
         </div>
       </div>
@@ -95,7 +95,7 @@ const PayAtTable = () => {
       <Carousel
         autoPlay
         infiniteLoop
-        transitionTime={3000}
+        transitionTime={2000}
         className="w-full"
         showThumbs={false}
       >
@@ -797,7 +797,7 @@ const PayAtTable = () => {
 
         <div className="w-screen h-auto flex justify-evenly gap-5 items-center p-14 font-Display">
           {/* card1 */}
-          <div className="h-[600px] w-[350px] flex flex-col justify-start items-left p-5 space-y-4 rounded-xl bg-[url('https://sundayapp.com/app/uploads/2024/03/Digital-tab-Slider-card-LanguageUS@2x-2-min-1.png')] bg-cover bg-center hover:bg-[length:110%] transition-all delay-1000">
+          <div className="h-[600px] w-[100%] flex flex-col justify-start items-left p-5 space-y-4 rounded-xl bg-[url('https://sundayapp.com/app/uploads/2024/03/Digital-tab-Slider-card-LanguageUS@2x-2-min-1.png')] bg-cover bg-center hover:bg-[length:110%] transition-all delay-1000">
             <h1 className="text-white text-xl animate-blink-once">
               Digital Tab
             </h1>
@@ -808,7 +808,7 @@ const PayAtTable = () => {
           {/* card2 */}
           <div className="h-[600px] w-[350px] flex flex-col justify-start items-left p-5 space-y-4 rounded-xl bg-[url('https://sundayapp.com/app/uploads/2024/03/Click-Collect-Slider-card-LanguageUS@2x-1-min-1.png')] bg-cover bg-center hover:bg-[length:110%] transition-all delay-1000">
             <h1 className="text-white text-xl animate-blink-once">
-              Click & Collect
+              Click & Collect   
             </h1>
             <p className="text-2xl text-white font-semibold animate-blink-once">
               Ordering from Anywhere
@@ -832,6 +832,7 @@ const PayAtTable = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

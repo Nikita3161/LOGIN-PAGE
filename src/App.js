@@ -12,6 +12,7 @@ import Short from "./utils/Short";
 import WhoWeAre from "./utils/WhoWeAre";
 import Footer from "./utils/Footer";
 import PayAtTable from "./utils/PayAtTable";
+import ClickCollect from "./utils/ClickCollect";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/who"element={<WhoWeAre/>}/>
           <Route path="/footer"element={<Footer/>}/>
           <Route path="/table"element={<PayAtTable/>}/>
+          <Route path="/click"element={<ClickCollect/>}/>
         </Routes>
       </div>
     </Router>
