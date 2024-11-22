@@ -18,7 +18,7 @@ const Caurosel = () => {
           <h1 className="text-2xl md:text-3xl font-semibold">+25% More Orders</h1>
           <div className="flex flex-col md:flex-row w-full items-start md:items-center space-y-4 md:space-y-0 md:space-x-4">
             <img
-              src={require("../assets/aux.png")}
+              src={require("../assets/auxit.png")}
               alt="aux"
               className="h-[100px] w-[100px] md:h-[100px] md:w-[100px] object-contain"
             />
