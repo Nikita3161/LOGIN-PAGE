@@ -1,8 +1,13 @@
+
 import React from "react";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
-    <div className="min-h-screen w-full flex justify-center items-center bg-black font-Display p-4">
+    <>
+    <Navbar/>
+   
+    <div className="min-h-[100vh] w-full flex justify-center items-center bg-black font-Display p-4">
       <div className="w-full max-w-xs md:max-w-sm h-screen md:h-full bg-white flex flex-col justify-center items-center p-6 md:p-10 space-y-5 font-Display rounded shadow-lg">
         <div className="flex justify-center items-center space-x-3">
           <img
@@ -54,6 +59,9 @@ const Home = () => {
         </button>
       </div>
     </div>
+   
+    </>
+
   );
 };
 

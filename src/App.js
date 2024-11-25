@@ -13,6 +13,7 @@ import WhoWeAre from "./utils/WhoWeAre";
 import Footer from "./utils/Footer";
 import PayAtTable from "./utils/PayAtTable";
 import ClickCollect from "./utils/ClickCollect";
+import { Navbar } from "@material-tailwind/react";
 
 
 function App() {
@@ -22,10 +23,11 @@ function App() {
         {/* Main routes configuration */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/nav"element={<Navbar/>}/>
           <Route path="/pass" element={<Password />} />
           <Route path="/relink" element={<Relink />} />
           <Route path="/caur" element={<Caurosel/>}/>
-          <Route path="/pay" element={<OderAndPay/>}/>
+          <Route path="/payment" element={<OderAndPay/>}/>
           <Route path="/container"element={<Container3/>}/>
         <Route path="/short"element={<Short/>}/>
           <Route path="/container4"element={<Container4/>}/>

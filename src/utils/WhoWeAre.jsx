@@ -1,10 +1,12 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const WhoWeAre = () => {
   return (
     <div>
+      <Navbar/>
       <div className="h-screen w-full   flex flex-col justify-center space-y-10 items-center bg-black ">
         <Marquee className="overflow-hidden">
           <div className="flex justify-start items-center text-9xl text-white font-bold ">

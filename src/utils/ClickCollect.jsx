@@ -1,9 +1,12 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Navbar from "./Navbar";
 
 const ClickCollect = () => {
   return (
+    <>
+    <Navbar/>
     <div className="h-auto w-screen flex flex-col justify-around items-center bg-white">
       <div className="w-full flex flex-col lg:flex-row justify-around items-center h-auto lg:h-screen p-6 lg:p-0">
         <div className="w-full lg:w-[45%] flex flex-col justify-center items-start space-y-6 md:space-y-8 p-4 md:p-8 lg:p-12">
@@ -558,6 +561,7 @@ const ClickCollect = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

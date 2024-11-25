@@ -3,10 +3,14 @@ import Caurosel from './Caurosel';
 import Container3 from './Container3';
 import Container4 from './Container4';
 import Short from './Short';
+import Navbar from './Navbar';
+
+
 
 const OderAndPay = () => {
   return (
-    <div className="h-auto w-full flex flex-col justify-around items-center bg-white">
+    <div className="h-auto w-full flex flex-col justify-start items-center bg-white">
+      <Navbar/>
       <div className="w-full flex flex-col lg:flex-row justify-around items-center h-auto lg:h-screen p-6 lg:p-0">
         <div className="w-full lg:w-[45%] flex flex-col justify-center items-start space-y-6 md:space-y-8 p-4 md:p-8 lg:p-12">
           <h1 className="text-pink-400 text-3xl md:text-4xl lg:text-5xl">Order & Pay</h1>

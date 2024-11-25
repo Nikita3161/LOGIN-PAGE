@@ -2,9 +2,12 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Navbar from "./Navbar";
 
 const PayAtTable = () => {
   return (
+    <>
+    <Navbar/>
     <div className="h-auto w-full flex flex-col justify-around items-center bg-white">
       <div className="w-full flex flex-col lg:flex-row justify-around items-center h-auto lg:h-screen p-6 lg:p-0">
         <div className="w-full lg:w-[45%] flex flex-col justify-center items-start space-y-6 md:space-y-8 p-4 md:p-8 lg:p-12">
@@ -797,7 +800,7 @@ const PayAtTable = () => {
 
         <div className="w-screen h-auto flex justify-evenly gap-5 items-center p-14 font-Display">
           {/* card1 */}
-          <div className="h-[600px] w-[100%] flex flex-col justify-start items-left p-5 space-y-4 rounded-xl bg-[url('https://sundayapp.com/app/uploads/2024/03/Digital-tab-Slider-card-LanguageUS@2x-2-min-1.png')] bg-cover bg-center hover:bg-[length:110%] transition-all delay-1000">
+          <div className="h-[600px] w-[350px] flex flex-col justify-start items-left p-5 space-y-4 rounded-xl bg-[url('https://sundayapp.com/app/uploads/2024/03/Digital-tab-Slider-card-LanguageUS@2x-2-min-1.png')] bg-cover bg-center hover:bg-[length:110%] transition-all delay-1000">
             <h1 className="text-white text-xl animate-blink-once">
               Digital Tab
             </h1>
@@ -834,6 +837,7 @@ const PayAtTable = () => {
       </div>
 
     </div>
+    </>
   );
 };
 
